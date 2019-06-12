@@ -18,11 +18,8 @@ public class KafkaConfig {
   private int consumersCount = 1;
   private boolean autoCommitEnable = true;
 
-  public final String getKafkaCamelRoute(){
-    return this.getKafkaCamelRoute(this.groupId);
-  }
 
-  public final String getKafkaCamelRoute(String groupId) {
+  public final String getKafkaCamelRoute() {
     String route = "kafka:" + this.topic;
     route += "?brokers=" + this.broker;
     route += "&groupId=" + groupId;
