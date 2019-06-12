@@ -7,7 +7,7 @@ Library for auto configure kafka in spring boot applications with camel-starter-
 #### Maven Dependency
 ```xml
  <dependency>
-    <groupId>com.nelreina.libs</groupId>
+    <groupId>com.github.nelreina</groupId>
     <artifactId>kafka-auto-configure</artifactId>
     <version>0.0.1</version>
   </dependency>
